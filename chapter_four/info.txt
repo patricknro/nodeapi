@@ -1,0 +1,34 @@
+This chapter the autor spoke about of topics relashions the:
+
+- Best practices
+"Use this book to not only learn new skills, but to practice building good habits."
+
+- Version control
+"The autor recommend the use of Git"
+
+- How to use git with this book
+    - If you're following along by doing it yourself
+    - If you're following along by using the official repository
+"Examples basics are learned, for example: 
+$ git init
+
+after command above is necessary to create a file .gitignore 
+because it going to ignore files specifics. For example the text down ignore files content in the folder.
+
+node_modules # this annotation ignore files in node_modules.
+
+$ git add -A
+$ git commit -m "Initial commit."
+"
+
+- npm packages
+"Here is learn how to understand the package.json file and restore the dependencies informed in file package.json"
+
+- Projects metadata
+"Show that file package.json also contain informations about of the project created"
+
+- Node modules
+"Node modules, as the name implies, offer a mechanism for modularization and encapsulation.
+ npm packages provide a standardized scheme for storing, versioning and referencing projects."
+
+ "Created example 'module' allowing the instructions in the book"

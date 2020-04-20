@@ -1,0 +1,11 @@
+This chapter speak more about of ...
+
+- Overview of QA Techniques
+- Running Your Server
+- Page Testing
+- Cross-Page Testing
+- Logic Testing
+- Linting
+- Link Checking
+- Automating with Grunt
+- Continuous Integration (CI)

@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 // set up handlebars view engine
-var handlebars = require('express3-handlebars')
+var handlebars = require('express-handlebars')
     .create({ defaultLayout: 'main' });
 
 app.engine('handlebars', handlebars.engine);
@@ -42,7 +42,8 @@ app.use(function (err, req, res, next) {
     res.render('500');
 });
 
+var portSelected = app.get('port') || 3000;
 
-app.listen(app.get('port') || 3000, function () {
-    console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl + C to terminate.');
+app.listen(portSelected, function () {
+    console.log('Express started on http://localhost:' + portSelected + '; press Ctrl + C to terminate.');
 });

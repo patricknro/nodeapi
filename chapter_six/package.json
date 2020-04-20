@@ -1,12 +1,12 @@
 {
-  "name": "chapter_three",
+  "name": "chapter_six",
   "version": "1.0.0",
   "description": "",
   "main": "meadowlark.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Patrick Nascimento",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
